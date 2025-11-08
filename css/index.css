@@ -10,10 +10,10 @@ body{
     padding: 10px 15px;
 }
 .login-container center a img{
-    height: 150px;
+    height: 130px;
 }
 .login-container center h2{
-    font-size: 25px;
+    font-size: 23px;
     color: darkgreen;
 }
 .login-container .form-group{
@@ -23,13 +23,13 @@ body{
 .login-container .form-group label{
     padding: 3px;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 .login-container .form-group input{
-    padding: 8px 12px;
+    padding: 7px 12px;
     width: 95%;
-    font-size: 17px;
+    font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
@@ -55,7 +55,7 @@ body{
     padding: 8px 12px;
     width: 100%;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 550;
     color: #fff;
     border-radius: 5px;
