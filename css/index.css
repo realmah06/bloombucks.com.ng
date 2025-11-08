@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.login-container{
+    width: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+.login-container center a img{
+    height: 170px;
+}
+.login-container center h2{
+    font-size: 30px;
+    color: darkgreen;
+}
+.login-container .form-group{
+    padding: 5px;
+    margin: 5px;
+}
+.login-container .form-group label{
+    padding: 3px;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-container .form-group input{
+    padding: 8px 12px;
+    width: 95%;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.login-container input[type="checkbox"]{
+    margin-left: 9px;
+}
+.login-container span{
+    color: darkred;
+    font-style: italic;
+    font-weight: 500;
+}
+.login-container a.forgot{
+    text-decoration: none;
+    color: #000;
+    float: right;
+    margin-right: 10px;
+}
+.login-container a.forgot:hover{
+    text-decoration: underline;
+}
+.login-container .form-group button{
+    padding: 8px 12px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: 550;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(2, 57, 2);
+}
+.login-container .form-group button:hover{
+    background-color: rgb(3, 80, 3);
+    transition: 0.6s;
+}
+.login-container center small i{
+    color: #aaa;
+    font-size: 14px;
+}
